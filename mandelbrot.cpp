@@ -11,7 +11,7 @@
 namespace mandelbrot {
 
 using Complex = std::complex<double>;
-const static uint8_t MAX_ITERS = 10000;
+const static uint8_t MAX_ITERS = 200;
 
 // calculate iterations using std complex
 inline uint8_t calculate_iters_complex(const uint8_t x, const uint8_t y) {
